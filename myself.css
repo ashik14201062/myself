@@ -84,8 +84,22 @@ section {
     border-image:linear-gradient(180deg, blue,cyan ) ;
     border-image-slice: 1;
 }
-.last{
-    text-align: center;
+
+
+.vab{
+    padding: 5%;
+}
+footer{
+    
     color:blue;
     font-size: 12px;
-}
+    
+    height: 10px;
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 16s;
+    }
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 100%;}

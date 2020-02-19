@@ -1,0 +1,91 @@
+
+body{
+
+    font-family: 'Signika', sans-serif;
+    text-transform: capitalize;
+    margin: 0px;
+
+}
+h1 {
+
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+.name-color {
+
+    color: orange;
+}
+.half {
+    width: 35%;
+    float:left;
+    margin: 3%;
+    padding: 2%;
+}
+.half img {
+
+    width: 100%;
+}
+.top {
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    padding-bottom: 250px;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(  45deg, blue, red );
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+}
+
+.download {
+    text-decoration: none;
+    background-image: linear-gradient(  45deg, rgb(252, 255, 95), red );
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+}
+.dream{
+
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.start {
+    margin: 3%;
+    padding: 2%;
+}
+.so {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+.experiences{
+
+    background-image:url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#left{
+    border-left: 7px solid;
+    border-image:linear-gradient(lightsalmon,tomato) ;
+    border-image-slice: 1;
+}
+#right{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, blue,cyan ) ;
+    border-image-slice: 1;
+}
+.last{
+    text-align: center;
+    color:blue;
+    font-size: 12px;
+}
